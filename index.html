@@ -687,24 +687,20 @@
     
 
 
-<div id="contact-section" style="max-width: 960px; margin: 0 auto; padding: 0 20px; font-family: 'PT Sans', sans-serif;">
-    <div style="text-align: center; margin-bottom: 35px;">
-        <img src="images/a3086284-e169-45b9-aabd-06e8752972e6.png" alt="Kontakt Icon" style="width: 100px; height: auto; display: inline-block;">
-        <h3 style="font-family: 'PT Serif', serif; margin-top: 15px; font-weight: normal; color: #333; font-size: 24px;">Kontakt</h3>
-    </div>
+<form action="https://api.web3forms.com/submit" method="POST" style="display: flex; flex-direction: column; gap: 12px; max-width: 960px; margin: 0 auto; padding: 0 20px; font-family: 'PT Sans', sans-serif;">
+    <input type="hidden" name="access_key" value="a390b74c-b438-4f71-b088-0ac17f76cd56">
+    
+    <input type="text" name="name" placeholder="Name" required style="padding: 14px; border: 1px solid #e0e0e0; background: #fff; width: 100%; box-sizing: border-box; font-family: inherit; font-size: 16px;">
+    
+    <input type="email" name="email" placeholder="E-Mail" required style="padding: 14px; border: 1px solid #e0e0e0; background: #fff; width: 100%; box-sizing: border-box; font-family: inherit; font-size: 16px;">
+    
+    <textarea name="message" placeholder="Nachricht" required style="padding: 14px; border: 1px solid #e0e0e0; background: #fff; min-height: 150px; width: 100%; box-sizing: border-box; resize: vertical; font-family: inherit; font-size: 16px;"></textarea>
+    
+    <button type="submit" style="padding: 16px; background-color: #666; color: white; border: none; cursor: pointer; text-transform: uppercase; font-weight: bold; width: 100%; font-family: inherit; letter-spacing: 1px;">
+        Absenden
+    </button>
+</form>
 
-    <div style="max-width: 100%; margin: 0 auto 50px auto;">
-        <form action="https://api.web3forms.com/submit" method="POST" style="display: flex; flex-direction: column; gap: 12px;">
-            <input type="hidden" name="access_key" value="a390b74c-b438-4f71-b088-0ac17f76cd56">
-            
-            <input type="text" name="name" placeholder="Name" required style="padding: 14px; border: 1px solid #e0e0e0; background: #fff; width: 100%; box-sizing: border-box; font-family: inherit; font-size: 16px;">
-            <input type="email" name="email" placeholder="E-Mail" required style="padding: 14px; border: 1px solid #e0e0e0; background: #fff; width: 100%; box-sizing: border-box; font-family: inherit; font-size: 16px;">
-            <textarea name="message" placeholder="Nachricht" required style="padding: 14px; border: 1px solid #e0e0e0; background: #fff; min-height: 150px; width: 100%; box-sizing: border-box; resize: vertical; font-family: inherit; font-size: 16px;"></textarea>
-            
-            <button type="submit" style="padding: 16px; background-color: #666; color: white; border: none; cursor: pointer; text-transform: uppercase; font-weight: bold; width: 100%; font-family: inherit; letter-spacing: 1px;">Absenden</button>
-        </form>
-    </div>
-</div>
 
 
 
